@@ -32,7 +32,7 @@ As part of the Udacity Data Scientist Nanodegree Program I decided to use Stacko
 **./2019Survey/survey_results_public.csv**: Stackoverflow's 2019 Annual Developer Survey data. (can't be uploaded due to size restriciton in git) </br>
 
 ## Results <a name="results"></a>
-The main findings can be found at the post available [here](https://medium.com/)
+The main findings can be found at the post available [here](https://medium.com/@mohamad.mohamed/germany-uk-or-usa-where-should-i-start-my-sw-engineer-career-240817fdd165)
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 Credit to Stackoverflow for the data. Licensing for the data and other information can be found  [here](https://insights.stackoverflow.com/survey).
