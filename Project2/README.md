@@ -12,3 +12,7 @@
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+### Important files:
+* `data/process_data_py` (Extract Train Load) ETL pipeline for cleaning data, feature extraction and saving cleaned in a SQLite database
+* `models/train_classifier.py` (Machine Learning) ML pipeline for loading data, train model and save trained model in a `.pkl`file
+* `run.py` Launch Flask web app to classify messages
