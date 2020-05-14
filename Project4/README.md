@@ -1,4 +1,4 @@
-# Dog Breeds Identification using CNN Transfer Learning
+## Dog Breeds Identification using CNN Transfer Learning
 
 ### Table of Contents
 
@@ -6,7 +6,7 @@
 2. [File Descriptions](#files)
 3. [Results](#results)
 
-## Project Overview<a name="overview"></a>
+### Project Overview<a name="overview"></a>
 
 This project is a part of the Udacity Data Science Nanodegree program. The goal in this project is to classify images of dogs according
 to their breed. To achieve this goal a neural network model with Convolutional Neural Network (CNN) transfer learning was build 
@@ -19,18 +19,18 @@ first detect if it is a dog or a human. If it can't detect any of boths the outp
 algorithm will predict the breed of the dog or the most resembling dog breed for a human.
 
 
-## File Descriptions <a name="files"></a>
+### File Descriptions <a name="files"></a>
 
 Below are main foleders/files for this project:
 1. haarcascades
-    - haarcascade_frontalface_alt.xml:  a pre-trained face detector provided by OpenCV
+    * `haarcascade_frontalface_alt.xml`:  a pre-trained face detector provided by OpenCV
 2. bottleneck_features
-    - DogVGG19Data.npz: pre-computed the bottleneck features for VGG-19
+    * `DogVGG19Data.npz`: pre-computed the bottleneck features for VGG-19
 3. saved_models
-    - weights.best.VGG19.hdf5: saved model weights with best validation loss
-4. dog_app.ipynb: a notebook used to build and train the dog breeds classification model 
-5. extract_bottleneck_features.py: functions to compute bottleneck features given a tensor converted from an image
-6. images: a few images to test the model
+    * `weights.best.VGG19.hdf5`: saved model weights with best validation loss
+4. `dog_app.ipynb`: a notebook used to build and train the dog breeds classification model 
+5. `extract_bottleneck_features.py`: functions to compute bottleneck features given a tensor converted from an image
+6. images: images to test the model
 
 ## Results<a name="results"></a>
 
