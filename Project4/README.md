@@ -15,7 +15,7 @@ The architecture of a CNN consists of an input and an output layer as well as hi
 developed and trained model can be used for a different task. To detect human faces in images `OpenCV's` implementation of `Haar feature-based 
 cascade classifier` was used and for dog detection in images a pre-trained `ResNet-50 model` was used. This pre-trained 
 model was trained on `ImageNet` which contains more than 10 million URLs, each linking to an image. Given an image the algorithm will
-first detect if it is a dog or a human. If it can't detect any of boths the output will be `No human or dog detected' otherwise the
+first detect if it is a dog or a human. If it can't detect any of boths the output will be `No human or dog detected` otherwise the
 algorithm will predict the breed of the dog or the most resembling dog breed for a human.
 
 
