@@ -36,6 +36,8 @@ Below are main foleders/files for this project:
 
 1. The model was able to reach an accuracy of `75.6%` on test data.
 
-Blog post: https://medium.com/@mohamad.mohamed/dog-breeds-classification-using-cnn-transfer-learning-6262b618fb3d
+Blog post: [![Medium](https://medium.com/@mohamad.mohamed/dog-breeds-classification-using-cnn-transfer-learning-6262b618fb3d)]
+
+
 
 
